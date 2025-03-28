@@ -17,10 +17,8 @@ export default function UserPost() {
             .catch(error => console.error("Error fetching posts:", error));
     }, []);
 
-    // Extract unique user IDs from posts
     const uniqueUserIds = [...new Set(posts.map(post => post.userid))];
 
-    // Handle user selection
     const handleUserChange = (event) => {
         const userId = event.target.value;
         setSelectedUser(userId);
@@ -30,8 +28,6 @@ export default function UserPost() {
     return (
         <div className="table-container">
             <h2>User Posts</h2>
-            
-            {/* User selection dropdown */}
             <FormControl style={{ marginBottom: "20px", width: "200px" }}>
                 <InputLabel>Select User</InputLabel>
                 <Select value={selectedUser} onChange={handleUserChange}>
@@ -40,8 +36,6 @@ export default function UserPost() {
                     ))}
                 </Select>
             </FormControl>
-
-            {/* Posts Table */}
             <TableContainer component={Paper} className="full-table">
                 <Table>
                     <TableHead>
