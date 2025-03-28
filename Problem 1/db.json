@@ -1,0 +1,135 @@
+{
+  "users": {
+      "1": "John Doe",
+      "10": "Helen Moore",
+      "11": "Ivy Taylor",
+      "12": "Jack Anderson",
+      "13": "Kathy Thomas",
+      "14": "Liam Jackson",
+      "15": "Mona Harris",
+      "16": "Nathan Clark",
+      "17": "Olivia Lewis",
+      "18": "Paul Walker",
+      "19": "Quinn Scott",
+      "2": "Jane Doe",
+      "20": "Rachel Young",
+      "3": "Alice Smith",
+      "4": "Bob Johnson",
+      "5": "Charlie Brown",
+      "6": "Diana White",
+      "7": "Edward Davis",
+      "8": "Fiona Miller",
+      "9": "George Wilson"
+  }
+  ,
+  "posts":
+  [
+    {
+        "id": 1,
+        "postId": "P1001",
+        "title": "AI is Revolutionizing Tech",
+        "content": "Artificial Intelligence is transforming industries and shaping the future.",
+        "date": "2025-03-25T10:00:00Z"
+    },
+    {
+        "id": 2,
+        "postId": "P1002",
+        "title": "The Rise of Quantum Computing",
+        "content": "Quantum computing is set to change how we approach complex problems.",
+        "date": "2025-03-24T15:30:00Z"
+    },
+    {
+        "id": 3,
+        "postId": "P1003",
+        "title": "SpaceX Plans for Mars Mission",
+        "content": "Elon Musk outlines the timeline for SpaceX’s first Mars colony.",
+        "date": "2025-03-26T08:45:00Z"
+    },
+    {
+        "id": 4,
+        "postId": "P1004",
+        "title": "5G Networks Expanding Globally",
+        "content": "5G technology is being rolled out worldwide, promising faster internet speeds.",
+        "date": "2025-03-23T14:20:00Z"
+    },
+    {
+        "id": 5,
+        "postId": "P1005",
+        "title": "Cryptocurrency Market Update",
+        "content": "Bitcoin and Ethereum see major price fluctuations amid regulatory discussions.",
+        "date": "2025-03-27T09:15:00Z"
+    },
+    {
+        "id": 6,
+        "postId": "P1006",
+        "title": "Renewable Energy on the Rise",
+        "content": "Solar and wind energy adoption rates are increasing worldwide.",
+        "date": "2025-03-22T18:40:00Z"
+    },
+    {
+        "id": 7,
+        "postId": "P1007",
+        "title": "Apple’s New AR Glasses",
+        "content": "Apple is rumored to launch its AR glasses with groundbreaking technology.",
+        "date": "2025-03-28T11:30:00Z"
+    },
+    {
+        "id": 8,
+        "postId": "P1008",
+        "title": "AI in Healthcare",
+        "content": "AI is helping doctors diagnose diseases faster and more accurately.",
+        "date": "2025-03-21T16:05:00Z"
+    },
+    {
+        "id": 9,
+        "postId": "P1009",
+        "title": "The Future of Electric Vehicles",
+        "content": "EVs are becoming more affordable, leading to a surge in adoption.",
+        "date": "2025-03-20T12:50:00Z"
+    },
+    {
+        "id": 10,
+        "postId": "P1010",
+        "title": "Metaverse: The Next Internet?",
+        "content": "Experts discuss the potential of the metaverse to change online interactions.",
+        "date": "2025-03-19T09:00:00Z"
+    }
+],
+"Posts": [
+  {
+      "id": 804,
+      "userid": 1,
+      "content": "Post about whale"
+  },
+  {
+      "id": 917,
+      "userid": 1,
+      "content": "Post about vampire"
+  },
+  {
+      "id": 981,
+      "userid": 1,
+      "content": "Post about igloo"
+  },
+  {
+      "id": 158,
+      "userid": 1,
+      "content": "Post about banana"
+  },
+  {
+      "id": 214,
+      "userid": 1,
+      "content": "Post about x-ray"
+  },
+  {
+      "id": 759,
+      "userid": 1,
+      "content": "Post about nest"
+  },
+  {
+      "id": 435,
+      "userid": 1,
+      "content": "Post about fish"
+  }
+]
+}
