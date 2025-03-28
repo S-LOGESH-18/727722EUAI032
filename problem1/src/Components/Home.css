@@ -1,0 +1,104 @@
+.App {
+    text-align: center;
+  }
+  .navbr
+  {
+    display: flex;
+    border-color: black;
+    background-color: aquamarine;
+  }
+  .navbr ul
+  {
+    display: flex;
+    gap: 20px;
+  }
+  .navbr li
+  {
+    cursor: pointer;
+  }
+  .login
+  {
+    border: 2px;
+    border-color: black;
+    outline:invert;
+    align-items: center;
+    padding-top: 10%;
+  }
+  .navbar {
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    padding: 10px 20px;
+  }
+  
+  .logo {
+    flex-grow: 1;
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .menu-button {
+    display: none;
+  }
+  
+  @media (max-width: 768px) {
+    .nav-links {
+        display: none;
+    }
+  
+    .menu-button {
+        display: block;
+    }
+  }
+  .table-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f4f4f4;
+  }
+  
+  .full-table {
+    width: 90%;
+    height: 90%;
+    max-height: 80vh;
+    overflow-y: auto;
+  }
+  
+  .MuiTableCell-head {
+    font-weight: bold;
+    background: #1e3c72;
+    color: white;
+  }
+  .create-user {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  .table-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #f4f4f4;
+  }
+  
+  .full-table {
+    width: 90%;
+    height: auto;
+    max-height: 80vh;
+    overflow-y: auto;
+  }
+  
+  .MuiTableCell-head {
+    font-weight: bold;
+    background: #1e3c72;
+    color: white;
+  }
+  
