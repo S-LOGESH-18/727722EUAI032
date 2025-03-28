@@ -15,8 +15,6 @@ export default function DataTable() {
         try {
             const response = await fetch("http://localhost:4000/users");
             const data = await response.json();
-
-            // Convert object to array of { id, name }
             const usersArray = Object.entries(data).map(([id, name]) => ({
                 id,
                 name
